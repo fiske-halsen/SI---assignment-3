@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolAPI", "schoolAPI\SchoolAPI.csproj", "{E35C3D4F-8E8A-410B-B28C-2C994F82B186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookAPI", "BookAPI\BookAPI.csproj", "{B1EBD12E-A7A0-447E-9A2D-BD42B9B94E1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcService", "GrpcService\GrpcService.csproj", "{BC6D805D-3565-4794-B449-5D0F16C45226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35C3D4F-8E8A-410B-B28C-2C994F82B186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35C3D4F-8E8A-410B-B28C-2C994F82B186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35C3D4F-8E8A-410B-B28C-2C994F82B186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35C3D4F-8E8A-410B-B28C-2C994F82B186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EBD12E-A7A0-447E-9A2D-BD42B9B94E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EBD12E-A7A0-447E-9A2D-BD42B9B94E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EBD12E-A7A0-447E-9A2D-BD42B9B94E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EBD12E-A7A0-447E-9A2D-BD42B9B94E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6D805D-3565-4794-B449-5D0F16C45226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6D805D-3565-4794-B449-5D0F16C45226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6D805D-3565-4794-B449-5D0F16C45226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6D805D-3565-4794-B449-5D0F16C45226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0E1F308-5D3F-48FC-A61B-AB1118A5AFA8}
+	EndGlobalSection
+EndGlobal
