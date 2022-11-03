@@ -13,4 +13,4 @@ If you want to fill the databases up with dummy data, run ```update-database``` 
 You are able to get a book recommendation for a student, given their budget and subjects (or both).\
 The SchoolAPI communicates directly with a database, while the BookAPI communicates with our Grpc service, that then communicates with the database. We've made a simple diagram to describe this:
 
-![Alt text](Diagram/system/?raw=true "Title")
+![Alt text](Diagram/system.png/?raw=true "Title")
